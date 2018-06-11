@@ -5,6 +5,18 @@
 	"Description": "",
 	"Plugins": [
 		{
+			"Name": "OnlineFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemTwitch",
+			"Enabled": true
+		},
+		{
 			"Name": "DiscordRpc",
 			"Enabled": false
 		}
