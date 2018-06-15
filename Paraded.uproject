@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.19",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Paraded",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "OnlineFramework",
