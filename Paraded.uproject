@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{EC806BD2-4FD8-194C-3487-A09112F13D8A}",
+	"EngineAssociation": "4.19",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -9,7 +9,8 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"CoreUObject"
 			]
 		}
 	],
@@ -95,6 +96,10 @@
 		},
 		{
 			"Name": "AnalyticsBlueprintLibrary",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintMaterialTextureNodes",
 			"Enabled": true
 		}
 	],
